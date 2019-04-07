@@ -38,7 +38,7 @@ class AddBook extends Component {
         if (selectedItem !== null) {
             const name = selectedItem.type;
             this.setState({
-                [name]: selectedItem.Label
+                [name]: selectedItem.value
             });
 
         }
